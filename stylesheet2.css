@@ -1,0 +1,44 @@
+body{
+    background-color: #25274D;
+    
+    }
+    
+    h1{
+    text-align: center;
+    font-size: 200%;
+    line-height: 200%;
+    font-style: normal;
+    font-family: Ariel, "Times New Roman", san-serif;
+    color: #ffffff;
+    
+    }
+    
+    header {
+    background-color: #464866;
+    text-align: center;
+    margin: 15px;
+    padding: 15px;
+    }
+    
+    a:link{
+    color: white;
+    background-color: #AAABB8;
+    border: 10px;
+    padding: 10px;
+    margin: 2px;
+    border-radius: 20px;
+    text-decoration: none;
+    
+    }
+    a:visited:{
+    color:#2E9CCA;
+    }
+    
+    a:hover{
+    color:#29648A;
+    
+    }
+    
+    a:focus{
+        color:#29648A;
+    }
