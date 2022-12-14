@@ -13,24 +13,42 @@
 <body>
 
     <header>
-    <h1 id = "test"> Kortez's Brinson Portfolio </h1>
+    <h1 id = "test"> Tez's Hub </h1>
     
     <nav>
-    <a href="Index.html" class= "active"> Home</a>
-    <a href= "about.html" class= "active">  </a>
-    
-    <a href= "contact.html" class= "active"> Contact Me</a>
-    
-    </nav>
-    </header>
-    <main>
-
-        <aside class = right > 
-            <video width="320" height="240" controls>
-                <source src="Video1.mp4" type="video/mp4">
-                <source src="Video1.mp4" type="video/ogg">
-              Your browser does not support the video tag.
-              </video>
-        </aside>
+        <a href="Index.html" class= "active"> Home</a>
+        <a href= "about.html" class= "active"> About me </a>
+        <a href= "contact.html" class= "active"> Contact Me</a>
         
-        </main>
+        </nav>
+    </header>
+    <h2> A Front End Designer For Fun </h2>
+    <div class="column">
+        <div class="container">
+            <form action="action_page.php">
+          
+              <label for="fname">First Name</label>
+              <input type="text" id="fname" name="firstname" placeholder="Your name..">
+          
+              <label for="lname">Last Name</label>
+              <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+          
+              <label for="country">Country</label>
+              <select id="country" name="country">
+                <option value="australia">Australia</option>
+                <option value="canada">Canada</option>
+                <option value="usa">USA</option>
+              </select>
+          
+              <label for="subject">Subject</label>
+              <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+          
+              <input type="submit" value="Submit">
+          
+            </form>
+          </div>
+
+<footer>
+
+</footer>
+</body>
